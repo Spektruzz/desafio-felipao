@@ -1,6 +1,6 @@
 // Declaração de variáveis
 let nome = "Svetlanah";
-let XP = 4500;
+let xp = 4500;
 
 //Estrutura de decisão para classificar o herói
 let nivel = "";
@@ -31,4 +31,5 @@ else {
 }
 
 //Saída
-console.log("O herói de nome ${nome} possui ${xp} está no nível ${nivel}");
+console.log(`O herói de nome ${nome} possui ${xp} XP e está no nível ${nivel}`);
+
